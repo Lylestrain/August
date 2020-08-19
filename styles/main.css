@@ -53,7 +53,23 @@ li:last-child >a {
     border-right:none;
 }
 
-#goto-menu { 
+#main-wrapper { 
     width: 80vw;
     margin: 0 auto;
+}
+
+    /* Clear floats after the columns */
+#goto-menu:after  {
+      content: "";
+      display: table;
+      clear: both;
+}
+
+.column {
+    width: 50%;
+    float: left;
+}
+
+.column.right {
+    float: right;
 }
