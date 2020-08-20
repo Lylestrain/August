@@ -55,6 +55,7 @@ li:last-child >a {
 
 #main-wrapper { 
     width: 80vw;
+    padding: 20px 0;
     margin: 0 auto;
 }
 
@@ -65,13 +66,22 @@ li:last-child >a {
       clear: both;
 }
 
+.mySlides> img {
+    width: 100%;
+}
+
 .column {
-    width: 50%;
+    width: 49%;
     float: left;
 }
 
 .column.right {
     float: left;
+    margin-left: 2%;
+}
+
+.column img {
+    width: 100%;
 }
 
 #footer-top {
@@ -80,11 +90,11 @@ li:last-child >a {
     font-style: italic;
     color: white ;
     font-weight: 900;
-    text-shadow: 1px 1px 3px rgba(0,0,0,.7);
     padding: 20px 0;
 }
 
 #footer-top>h3 {
+    text-shadow: 1px 1px 3px rgba(0,0,0,.7);
     padding-bottom: 10px;
 }
 
