@@ -74,7 +74,20 @@ li:last-child >a {
     float: left;
 }
 
-footer {
-    background-image: url('./images/header-bg.png');
+#footer-top {
+    background-image: url('../images/header-bg.png');
     text-align: center;
+    font-style: italic;
+    color: white ;
+    font-weight: 900;
+    text-shadow: 1px 1px 3px rgba(0,0,0,.7);
+    padding: 20px 0;
+}
+
+#footer-top>h3 {
+    padding-bottom: 10px;
+}
+
+#footer-bottom {
+    background-color: #1f1f1f;
 }
