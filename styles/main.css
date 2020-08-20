@@ -71,5 +71,10 @@ li:last-child >a {
 }
 
 .column.right {
-    float: right;
+    float: left;
+}
+
+footer {
+    background-image: url('./images/header-bg.png');
+    text-align: center;
 }
