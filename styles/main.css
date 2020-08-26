@@ -89,6 +89,7 @@ li:last-child >a {
 #footer-top {
     background-image: url('../images/header-bg.png');
     text-align: center;
+    line-height: 36px;
     font-style: italic;
     color: white ;
     font-weight: 900;
